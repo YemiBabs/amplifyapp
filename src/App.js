@@ -55,7 +55,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1>DentShare!</h1>
+            <h1>DentShare - SIT706</h1>
             <input
                 onChange={e => setFormData({ ...formData, 'name': e.target.value})}
                 placeholder="File name"
