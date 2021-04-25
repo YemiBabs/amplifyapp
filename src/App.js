@@ -88,7 +88,7 @@ function App() {
 						</div>
 						<p>Description: {note.description}</p>
 						<div class="d-flex justify-content-center">
-							{note.image && <img src={note.image} style={{width: 400}} alt={{Node}}/>}
+							{note.image && <img src={note.image} style={{width: 400}} alt={{}}/>}
 						</div>
 					<div class="btn-group">
 						<button type="button" class="btn btn-danger" onClick={() => deleteNote(note)}>Delete</button>
